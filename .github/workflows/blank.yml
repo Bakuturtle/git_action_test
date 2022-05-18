@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: windows10
+    runs-on: Pop!_OS
     steps:
     - name: hello wolrd !!
       run: echo Hello, world!
